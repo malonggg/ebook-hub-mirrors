@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-28",
+  "note": "ebook-hub 书源入口注册表：网站换域名只需改本文件，应用 24h 内自动生效（无需发版）。domains 数组顺序即探测优先级，首位优先。",
+  "sources": {
+    "zlib": {
+      "domains": ["zh.pirate101.ru", "tw.nor101.ru", "z-lib.sk", "z-library.sk", "z-lib.fm"],
+      "note": "Z-Library 用户镜像（.ru 国内直连可达）优先；官方域名多被墙，留作代理通道兜底。2026-10-28 实测 pirate101 可用、nor101 暂 503"
+    },
+    "bqg": {
+      "domains": ["www.bqg70.com"],
+      "note": "笔趣阁网文源（换域频繁，失效时在此补充新域即可）"
+    }
+  }
+}
